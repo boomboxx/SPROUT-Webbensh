@@ -1,0 +1,23 @@
+* { padding:0; margin:0; border:none; outlin:none }
+
+html { font-family:arial,helvetica,verdana,sans-serif; color:#000000; font-size:12px }
+
+.content-wrap { position:absolute; left:50%; margin-left:-160px; width:320px; height:480px; overflow:hidden }
+
+/* ########## DEFAULTS ########## */
+.outer-wrap { width:100% }
+.inner-wrap { width:94%; padding:3% }
+
+/* ---------- HEAD ---------- */
+.head-wrap { position:absolute; height:108px; background:url(../gfx/head-default.png) }
+.head-text { float:left; width:100%; text-align:center; font-size:14px; font-weight:bold }
+
+/* ---------- CENTER ---------- */
+.center-wrap { position:absolute; top:108px; height:372px; background:url(../gfx/center-bg.png) }
+.button-play-pause { position:absolute; left:40px; bottom:4px; z-index:50; width:53px; height:53px; cursor:pointer }
+
+/* ---------- COUNTER ---------- */
+.counter-wrap { position:absolute; width:100%; top:70px; text-align:center; font-size:24px; font-weight:bold }
+.counter-numbers { float:left; width:50px; }
+.counter-seperator [ float:left; width:10px }
+

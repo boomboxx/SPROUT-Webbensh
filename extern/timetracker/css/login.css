@@ -1,0 +1,15 @@
+* { padding:0; margin:0; border:none; outlin:none }
+
+html { font-family:arial,helvetica,verdana,sans-serif; color:#000000; font-size:12px }
+
+.content-wrap { position:absolute; left:50%; margin-left:-160px; width:320px; height:480px; overflow:hidden; background:url(../gfx/login-bg-all.png) }
+
+/* ########## DEFAULTS ########## */
+.outer-wrap { width:100% }
+
+/* ---------- CENTER ---------- */
+.login-wrap { width:200px; position:absolute; top:180px; left:60px }
+.login-wrap h1 { width:200px; display:inline; background-color:#cccccc; font-weight:600; font-size:14px }
+.login-wrap input { border:1px solid #333333; display:inline; width:198px }
+#submitLogin { background-color:#cccccc }
+#loginErrorWrap { position:absolute; padding:5px; width:190px; top:100px; left:60px; background-color:#ff0000; color:#ffffff }

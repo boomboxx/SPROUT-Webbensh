@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.tracking-report-list-table { float:left; width:100% }
+.tracking-report-list-table-head { background-color:#00555E }
+.tracking-report-list-table-head td { padding:0 2px 0 2px; color:#ffffff; font-weight:bold }
+.tracking-report-list-table td.right-align { text-align:right }
+.tracking-report-list-table td { vertical-align:top }
+.tracking-report-list-table-allover td { padding:0 2px 0 2px; font-weight:bold; border-top:1px solid #000000 }
+.datepickerUi { width:80px }

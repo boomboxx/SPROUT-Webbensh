@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+/* ------ Module -> Projects -> Tracking Report User ----- */
+.tracking-report-user-wrap { float:left; display:inline; width:960px; border:1px solid #39696e; margin-top:15px }
+.tracking-report-user-head-wrap { float:left; display:inline; padding:0 5px 0 5px; width:950px; background-color:#39696e }
+.tracking-report-user-name { float:left; display:inline; width:500px; font-weight:bold; color:#ffffff }
+.tracking-report-user-tracking-wrap { float:left; width:950px; padding:8px 5px 8px 5px; border-bottom:1px solid #333333 }
+.tracking-edit-green { background-color:#80ca78 }
+.tracking-report-user-tracking-wrap:hover { background-color:#ffc6c3; }
+.tracking-report-user-tracking-wrap a { color:#000000; font-weight:bold }
+.tracking-report-user-tracking-wrap a:hover { text-decoration:underline; font-weight:bold }
+.tracking-report-user-tracking-details-wrap { float:left; display:inline; border-bottom:1px solid #bbbbbb; width:950px; padding-bottom:5px }
+.tracking-report-user-tracking-customer { float:left; width:200px; display:inline; font-weight:bold }
+.tracking-report-user-tracking-project { float:left; width:350px; display:inline }
+.tracking-report-user-tracking-project-edit { float:left; width:350px; display:inline }
+.tracking-report-user-tracking-category { float:left; width:150px; display:inline }
+.tracking-report-user-tracking-hours { float:right; width:70px; display:inline; text-align:right }
+.tracking-report-user-tracking-notice { float:left; width:950px; display:inline; padding-top:5px }
+.tracking-report-user-summary-wrap { float:right; width:160px; margin:3px 5px 0 0; display:inline; border-top:1px solid #bbbbbb }
+.trackreportUserDate { display:inline; width:100px; border:1px solid #333333 }
+
+/* ------ Module -> Projects -> Tracking Report Project ----- */
+.tracking-report-project-select-projects { width:250px }
+.tracking-report-project-wrap { float:left; display:inline; width:960px; border:1px solid #39696e; margin-top:15px }
+.tracking-report-head-title { float:left; display:inline; padding-left:2px; width:958px; border-bottom:1px solid #bbbbbb; color:#ffffff; background-color:#39696e; font-weight:bold }
+.tracking-report-head-title a { color:#ffffff }
+.tracking-report-head-title a:hover { text-decoration:underline }
+.tracking-report-project-head-wrap { float:left; background-color:#39696e; width:960px }
+.tracking-report-project-head-date { float:left; padding-left:2px; width:63px; color:#ffffff }
+.tracking-report-project-head-user { float:left; padding-left:10px; width:165px; color:#ffffff }
+.tracking-report-project-head-category { float:left; padding-left:10px; width:135px; color:#ffffff }
+.tracking-report-project-head-notice { float:left; padding-left:10px; width:400px; color:#ffffff }
+.tracking-report-project-head-hours-wrap { float:right; width:160px; display:inline }
+.tracking-report-project-head-hours { float:left; width:38px; padding-right:2px; display:inline; text-align:right; color:#ffffff }
+.tracking-report-project-tracking-wrap { float:left; width:960px; display:inline; padding:3px 0 3px 0; border-bottom:1px solid #bbbbbb }
+.tracking-report-project-tracking-date { float:left; padding-left:2px; width:63px }
+.tracking-report-project-tracking-date a { color:#000000 }
+.tracking-report-project-tracking-date a:hover { text-decoration:underline; font-weight:normal }
+.tracking-report-project-tracking-user { float:left; padding-left:10px; width:165px }
+.tracking-report-project-tracking-category { float:left; padding-left:10px; width:135px }
+.tracking-report-project-tracking-notice { float:left; padding-left:10px; width:400px }
+.tracking-report-project-tracking-hours-wrap { float:right; width:160px; display:inline }
+.tracking-report-project-tracking-edit-hours-wrap { float:left; width:360px; display:inline; margin-left:50px }
+.tracking-report-project-tracking-hours { float:left; width:38px; padding-right:2px; display:inline; text-align:right }
+.tracking-report-project-summary-wrap { float:right; width:160px; margin-top:3px; display:inline; border-top:1px solid #bbbbbb }
+.tracking-report-project-sum { float:left; width:38px; padding-right:2px; display:inline; text-align:right }
+.tracking-actions-wrap { display:none; float:left; margin-top:3px; width:952px; padding:3px 0 3px 0; border-top:1px solid #333333; text-align:right; background-color:#333333; color:#ffffff }
+.tracking-actions-wrap img { margin-right:5px }
+.trackingAddCustomerId { width:300px }
+.trackingEditCustomerId { width:300px }
+.trackingAddType { width:60px }
+.tracker-add-wrap { float:left; display:none; margin-top:15px; padding:6px 0 6px 0; border-top:1px solid #333333; border-bottom:1px solid #333333; width:960px }
+#trackingAddIcon { cursor:pointer }
+.trackingAddUsed { width:20px }
+.trackingAddComment { width:960px }
+.trackingEditComment { width:948px }
+.trackingDeleteIcon { cursor:pointer }

@@ -1,0 +1,59 @@
+* { padding:0; margin:0; border:none; outlin:none }
+
+html { font-family:arial,helvetica,verdana,sans-serif; color:#000000; font-size:12px }
+
+.content-wrap { position:absolute; left:50%; margin-left:-160px; width:320px; height:480px; overflow:hidden }
+
+/* ########## DEFAULTS ########## */
+.outer-wrap { width:100% }
+
+/* ---------- HEAD ---------- */
+.head-wrap { position:absolute; height:108px; background:url(../gfx/head-default.png) }
+.head-text { float:left; width:100%; text-align:center; font-size:14px; font-weight:bold; margin-top:10px }
+
+/* ---------- CENTER ---------- */
+.center-wrap { position:absolute; top:108px; height:372px; background:url(../gfx/center-bg.png) }
+.center-procent-wrap { position:absolute; top:0; left:0; height:14px; width:320px; background-color:#239b23; border-bottom:1px solid #666666; color:#ffffff; font-size:10px; display:inline }
+.center-procent-red { position:absolute; top:0; width:0; height:14px; background-color:#cd0e0e; display:inline }
+.center-procent-text { position:absolute; top:0; width:0; width:320px; text-align:center; display:inline }
+.button-play-pause { position:absolute; left:40px; bottom:4px; z-index:50; width:53px; height:53px; cursor:pointer; display:none }
+.button-stop { position:absolute; left:44px; bottom:10px; z-index:40; width:39px; height:39px; cursor:pointer }
+.button-save { position:absolute; left:140px; bottom:47px; z-index:40; width:41px; height:37px; cursor:pointer; display:none }
+#record-pulse { position:absolute; left:254px; top:44px; display:none }
+.center-inner-wrap { position:absolute; width:220px; left:50px; top:30px }
+.center-inner-wrap h1 { display:inline; background-color:#cccccc; font-weight:600; font-size:14px }
+.center-inner-wrap select { width:193px; border:1px solid #888888; display:inline }
+.center-inner-wrap textarea { width:193px; border:1px solid #888888; font-family:arial,helvetica,verdana,sans-serif; color:#000000; font-size:12px }
+#project-wrap { display:none }
+#category-wrap { display:none }
+#comment-wrap { display:none }
+#type-wrap { display:none }
+.logout { position:absolute; width:49px; height:17px; right:28px; bottom:5px }
+.username { position:absolute; height:17px; left:100px; bottom:5px; color:#ffffff }
+.select-wrap { float:left; display:inline; width:220px }
+.select-wrap select { float:left; display:inline; width:190px }
+.select-wrap img { float:right; display:inline; width:18px; height:18px; margin-top:1px; cursor:pointer }
+
+/* ---------- COUNTER ---------- */
+.counter-wrap { position:absolute; width:110px; top:50px; left:105px; font-size:24px; font-weight:bold }
+.counter-numbers { float:left; width:30px }
+.counter-seperator { float:left; width:10px }
+
+/* ---------- OVERLAY ---------- */
+.overlay-wrap { position:absolute; z-index:50000; width:320px; height:480px; background-color:#000000; display:none }
+.overlay-message { position:absolute; display:none; width:200px; left:75px; top:100px; display:none; color:#ffffff  }
+#tracker-message { display:none; position:absolute; width:290px; top:150px; padding:25px 15px 25px 15px; z-index:50010; text-align:center; color:#ffffff }
+
+#customer-add-wrap { position:absolute; top:150px; left:45px; z-index:60000; display:none; width:230px; color:#ffffff }
+#customer-add-wrap strong { font-size:14px }
+#customerTitle { width:230px } 
+#customerAddSave { float:left; display:inline; cursor:pointer }
+#customerAddCancel { float:left; display:inline; cursor:pointer; margin-left:25px }
+#customerAddSave { float:left; display:block; width:100px; height:16px; background:url(../gfx/disk.png) no-repeat; color:#ffffff }
+
+#project-add-wrap { position:absolute; top:150px; left:45px; z-index:60000; display:none; width:230px; color:#ffffff }
+#project-add-wrap strong { font-size:14px }
+#projectTitle, #projectJobnumber { width:230px } 
+#projectAddSave { float:left; display:inline; cursor:pointer }
+#projectAddCancel { float:left; display:inline; cursor:pointer; margin-left:25px }
+#projectAddSave { float:left; display:block; width:100px; height:16px; background:url(../gfx/disk.png) no-repeat; color:#ffffff }
